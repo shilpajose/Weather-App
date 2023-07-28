@@ -1,0 +1,45 @@
+body {
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+}
+#result{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+.card{
+    width: 18rem;
+    height: 460px;
+    opacity: 0.8;
+}
+#weather{
+    position: absolute;
+    left: 30%;
+}
+@media screen and (max-width:640px)
+{
+    #searchbox { display:block }
+    #button { display:block; width:auto }
+    h5,i{font-size: 10px;}
+    h2{font-size: 20px;}
+    #result{height: 700px;width: 195px;position: absolute;top: 10%;left: 18%;}
+    .card{height: 610px;}
+    #weather{position: absolute;left: 10%;}
+}
+@media screen and (min-device-width: 641px) and (max-device-width: 767px) { 
+   .card{
+    height: 490px;
+   }
+   #weather {
+    position: absolute;
+    left: 3%;}
+}
+@media screen and (min-device-width: 768px){
+    .card{
+        height: 490px;
+       }
+       #weather {
+        position: absolute;
+        left: 23%;}
+}
+
