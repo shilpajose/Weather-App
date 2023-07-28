@@ -37,11 +37,12 @@ body {
 @media screen and (min-device-width: 768px){
     .card{
         height: 490px;
+        width: 728px;
        }
        #weather {
         position: absolute;
-        left: 23%;
-        width: 610px;
+        left: 3%;
+        width: 669px;
     }
 }
 

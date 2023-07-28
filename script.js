@@ -11,7 +11,8 @@ function displayData(dataArray) {
     cityname.innerHTML = `<h2 class="card-title text-center text-light mt-5" >${city_name}</h2>
 `
     const temperature = dataArray.main.temp
-    tempp.innerHTML = `<h5 class="text-center text-light">${temperature}°C</h5><br><br>`
+    tempp.innerHTML = `<h5 class="text-center text-light">${temperature}°C</h5><br><i class="fa-solid fa-cloud-sun text-light fa-3x"></i>
+    <br>`
     const pressure = dataArray.main.pressure
     const humidity = dataArray.main.humidity
     const wind = dataArray.wind.speed
